@@ -19,5 +19,6 @@ from . import views
 # this change is proposed by shubham
 urlpatterns = [
     path("",views.index,name="index"),
-    path("contact",views.contact,name="contact")
+    path("contact",views.contact,name="contact"),
+    path("abhishek",views.abhishek,name="abhishek")
 ]
